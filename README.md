@@ -66,21 +66,21 @@ With the cleaned dataset, 2,713 homes remained and scikit-learn was utilized to 
 ## Data Visuals Creation
 
 ### Average Price of Housing in King County
-<img src=data/AveragePrice.png>
+<img src=data/averageprice.png>
 
 Looking at the average pricing of homes within King County, we see that significantly more families are purchasing homes outside of Seattle compared to purchases within the city. The average price of realty within Seattle is greater than that outside of the city as well which follows the trend of urban realty being more expensive than that of suburb communities.
 
 ### Condition of Homes Compared to Average Price/SQFT within King County
-<img src=data/Conditions.png>
+<img src=data/averagecondition.png>
 
 This model focused on homes that were of Average or greater condition to ensure that the families, especially the children are living in suitable conditions and not in homes of disrepair. Homes outside of Seattle have seen a steady incline in price as the conditions increase, whereas those within the city of Seattle have a greater variation in price.
 
 ### Building Grade of Homes Compared to Average Price/SQFT within King County
-<img src=data/BuildingGrades.png>
+<img src=data/averagebuildinggrade.png>
 
 This model focused on homes that had a building grade of 6 and above since the grade 6 is the lowest achievable grade that meetings King County building codes. There is an upward trend of average price per square foot as the building grade increases. However, there are only homes outside of Seattle that are of grade 11 and 12 which can be attributed to real estate is cheaper out of the big city or families customizings their homes more in suburban areas whereaas urban areas have more red tape and limitations. In addition, homes of higher grade begin to approach mansion level, and with more property, the bigger the house can be, which may not be possible within the city since there is less space.
 
-### Building Grade of Homes Compared to Average Price/SQFT within King County
+### Map of Seattle with Markers of Homes within the Dataset
 <img src=data/SeattleMap.png>
 The dataset consisted of 2,731 homes with the numerous fixed factors and price outliers removed. The homes within the city of Seattle is noted in orange markers and the homes outside of Seattle are noted in blue. The outline of King County can be seen noted in a black line
 
