@@ -56,19 +56,15 @@ With the cleaned dataset, 2,713 homes remained and scikit-learn was utilized to 
 Started by making an initial Dummy Regressor model as a baseline. The R-squared score was close to 0 which is expected, and we could only go up from there!
 ### Second Model 
 <img src=images/second.png>
-
 Our second model here focuses on our most correlated feature, which is price_sqft.
 ### Third Model
 <img src=images/third.png>
-
 The third model adds onto our most correlated feature by modeling the top three variables. Here we see that our R-squared score is very high at about 0.93.
 ### Fourth Model 
 <img src=images/fourth.png>
-
 Our fourth model includes all of the variables, but we notice that condition number greatly increases even though the R-squared score remains around the same values as our third model. We believe this is due to the multicolinearity introduced by our most correlated value, and as such we want to rerun our model without this variable.
 ### Fifth & Final Model
 <img src=images/fifth.png>
-
 We arrive at our fifth and final model that looks at the relationship between liveable square feet and building grade. Although our R-squared score has decreased, these two variables have reduced the condition number considerably.
 
 ## Data Visuals Creation
